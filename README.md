@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="df.png" alt="Logo"/>
   <h1>Dataframe</h1>
   <h3>C++17 implementation of <code>pandas.DataFrame</code></h3>
 </div>
