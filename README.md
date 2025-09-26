@@ -6,9 +6,8 @@
 
 <p align="center">
   <img alt="C++17" src="https://img.shields.io/badge/C++-17-blue.svg?style=flat-square"/>
-  <img alt="Windows" src="https://img.shields.io/badge/Platform-Windows-green?style=flat-square"/>
+  <img alt="Windows" src="https://img.shields.io/badge/Platform-Windows/Linux/Mac-green?style=flat-square"/>
   <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square"/>
-  <img alt="Contributions Welcome" src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square"/>
 </p>
 
 ---
