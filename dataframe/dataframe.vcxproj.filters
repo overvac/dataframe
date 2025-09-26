@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{c602920a-d234-4ff9-a21a-f452d5c856ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dataframe">
+      <UniqueIdentifier>{1e8d7956-4489-45a4-b3e4-277a391060c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\dataframe\dataframe.h">
+      <Filter>src\dataframe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
