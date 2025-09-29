@@ -13,12 +13,15 @@
 #include <iomanip>
 #include <variant>
 #include <unordered_map>
+#include <map>
 #include <optional>
 #include <charconv>
 #include <fstream>
 #include <sstream>
 #include <string>
 #include <algorithm>
+
+//#define _USE_ORDERED_COLUMNS
 
 #define LOG_CLR_NORMAL 0x7
 #define LOG_CLR_RED FOREGROUND_RED
@@ -119,7 +122,11 @@ class c_dataframe
 {
 private:
 
+#ifdef _USE_ORDERED_COLUMNS
+	std::map<std::string, std::vector<value_t>> m_data;
+#else
 	std::unordered_map<std::string, std::vector<value_t>> m_data;
+#endif
 	size_t m_rows = 0;
 
 
