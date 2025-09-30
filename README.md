@@ -152,3 +152,6 @@ int main() {
 1       Bob                        30                         60000
 2       Charlie                    28                         55000
 ```
+
+## 📝 License
+Licensed under the **MIT License**.
