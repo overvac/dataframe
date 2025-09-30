@@ -11,7 +11,7 @@
 
 ---
 
-## Overview
+## 📖 Overview
 A **lightweight single-header** C++17 dataframe implementation inspired by **pandas.DataFrame**.
 
 Think of **Dataframe** as a **spreadsheet** in C++:
@@ -22,7 +22,7 @@ Each column can hold **different types** (`int`, `float`, `double`, `string`), s
 
 ---
 
-## Requirements
+## 🛠 Requirements
 - **C++17** or newer  
   Uses features like `std::variant`, `std::optional`, and `std::from_chars`.
 - **Windows console** *(only for colored logging via `c_logger`)*  
@@ -37,7 +37,7 @@ Each column can hold **different types** (`int`, `float`, `double`, `string`), s
 
 ---
 
-## Installation
+## 🚀 Installation
 1. Add the single header to your project:
    ```
    dataframe.h
@@ -69,7 +69,7 @@ g++ -std=c++17 -O2 main.cpp -o demo
 
 ---
 
-## Features
+## 📂 Features
 - **Mixed types per column**: `using value_t = std::variant<double, std::string>;`
 - **CSV I/O**: `from_csv(path, header)` and `to_csv(path, header)`
 - **Column operations**:
@@ -110,7 +110,7 @@ g++ -std=c++17 -O2 main.cpp -o demo
 
 ---
 
-## Example Usage
+## 📊 Example Usage
 
 ```cpp
 #include "dataframe.h"
